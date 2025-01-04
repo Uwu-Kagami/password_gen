@@ -1,6 +1,12 @@
 @echo off
-echo Navigating to the target directory
-cd /d C:\Users\lesek\OneDrive\Bureau\py_crea\password\generator
+echo Navigating to the directory of the batch script
+
+set SCRIPT_DIR=%~dp0
+cd /d %SCRIPT_DIR%
+
+:: DEV KAGAMI 1321633141705936898
+:: DEV KAGAMI 1321633141705936898
+
 
 if %errorlevel% neq 0 (
     echo Failed to navigate to the target directory. Exiting script.
