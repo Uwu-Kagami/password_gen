@@ -7,6 +7,9 @@ import platform
 import subprocess
 from pynput import keyboard
 
+# BY KAGAMI 1321633141705936898
+# BY KAGAMI 1321633141705936898
+# BY KAGAMI 1321633141705936898
 
 def generate_password():
     password_length = int(password_length_entry.get())
